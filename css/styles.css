@@ -1,1 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.hero {
+  width: 1920px;
+  /* height: 862px; */
+  background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 170px;
+  margin-bottom: 170px;
+  color: #dedede;
+}
+
+h1 {
+  font-family: Nunito Sans;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  text-transform: uppercase;
+  color: #faf9f9;
+  margin-bottom: 40px;
+}
+
+h1 span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+  color: #fbb731;
+}
+
+.hero-text {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 42px;
+}
+
+a {
+  display: inline-block;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1e2f40;
+  background: #fbb731;
+  border-radius: 5px;
+  padding: 20px 45px;
+}
+
+.visual {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  position: relative;
+}
+
+.bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(
+    2.42deg,
+    #f37335 -19.6%,
+    #fbb731 100.79%,
+    #fdc830 100.79%
+  );
+}
+
+img {
+  position: absolute;
+  right: -168px;
+}
 
